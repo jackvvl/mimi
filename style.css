@@ -3,21 +3,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
 
-
 body {
-  background-image: url("https://wallpapershome.com/images/pages/pic_h/24194.jpg");
+  background-image: url("https://wallpapershome.com/images/pages/pic_h/24448.jpg");
   background-repeat: no-repeat;
   background-color: black;
+  background-size: contain
+
 }
 
 h1 {
-  color: whitesmoke;
+  color: azure;
   font-size: 4em;
   letter-spacing: 0.75em;
-  padding-left: 0.375em;
+  padding-left: 0.275em;
   font-family: "Rajdhani", sans-serif;
   margin-top: 5em;
-  margin-left: 5.8em;
+  margin-left: 3.5em;
+
   
 }
 
@@ -56,17 +58,19 @@ h3{
 
 
 a {
-position: relative;
-text-decoration: none;
-color: whitesmoke;
-z-index: 1;
+  top: -2em;
+  left: 1em;
+  position: relative;
+  text-decoration: none;
+  color: whitesmoke;
+  z-index: 1;
   font-family: "Montserrat", sans-serif;
   font-size: 4em;
 	font-weight: 200;
 }
 a:before {
 content: "";
-background: #c80c14;
+background: mediumseagreen;
 position: absolute;
 width: 100%;
 height: 2px;
